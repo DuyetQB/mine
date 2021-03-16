@@ -2,10 +2,42 @@
     padding: 10px 0px;
     display: flex;
     width:100%;
-    border: 1px solid rgb(145, 143, 143);
+    border-bottom: 1px solid rgb(230, 227, 227);
     justify-content: space-around;
     position: fixed;
+    position: relative;
     background: #fff;
+    & .nav-toggle{
+        display:none;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+    & .toggle-menu{
+        display: none;
+        position: absolute;
+        width:340px;
+        height:340px;
+        z-index: 10;
+        border: 1px solid rgb(235, 234, 234);
+        top:100px;
+        background: #fff;
+        box-shadow: 0 3px 2px rgb(221, 219, 219);
+      
+        & li{
+            display: block;
+        }
+        
+    }
+    svg{
+        cursor: pointer;
+    }
+    & .hiddenClass{
+        display:none;
+    }
+    & .showClass{
+        display:block;
+    }
+
     & .logo{
         img{
         width:80px;
@@ -26,5 +58,18 @@
     }
 }
 .content{
-    padding-top: 112px;
+    padding-top: 172px;
+}
+@media screen and (max-width:739px){
+    .header{
+        padding-right: 90px;
+        
+        .main-menu{
+            display:none;
+        }
+        .nav-toggle{
+            display:block;
+            
+        }
+    }
 }
