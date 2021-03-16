@@ -1,0 +1,37 @@
+.header {
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid #918f8f;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  background: #fff;
+}
+
+.header .logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.header li {
+  display: inline-block;
+  padding: 12px 15px;
+}
+
+.header li a {
+  text-decoration: none;
+  font-size: 27px;
+  color: black;
+}
+
+.header li a:hover {
+  color: #ff008c;
+}
+
+.content {
+  padding-top: 112px;
+}
+/*# sourceMappingURL=App.css.map */

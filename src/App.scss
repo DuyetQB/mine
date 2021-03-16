@@ -1,0 +1,30 @@
+.header{
+    padding: 10px 0px;
+    display: flex;
+    width:100%;
+    border: 1px solid rgb(145, 143, 143);
+    justify-content: space-around;
+    position: fixed;
+    background: #fff;
+    & .logo{
+        img{
+        width:80px;
+    height:80px;
+    }
+}
+    & li{
+        display: inline-block;
+  padding: 12px 15px;
+        & a{
+            text-decoration: none;
+  font-size: 27px;
+  color: black;
+  &:hover{
+    color: rgb(255, 0, 140);
+  }
+        }
+    }
+}
+.content{
+    padding-top: 112px;
+}
